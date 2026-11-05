@@ -1,0 +1,6 @@
+decoder.pkts                                  | Total                     | 24
+decoder.bytes                                 | Total                     | 2316
+flow.tcp                                      | Total                     | 3
+tcp.sessions                                  | Total                     | 3
+detect.alert                                  | Total                     | 1
+app_layer.flow.http                           | Total                     | 3

@@ -1,0 +1,7 @@
+$ timeout 15 suricata -i lo -c /etc/suricata/suricata.yaml -S local.rules -l out-live
+i: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+E: af-packet: lo: failed to create AF_PACKET socket: Operation not permitted
+E: af-packet: lo: failed to create socket: Operation not permitted
+E: af-packet: lo: failed to init socket for interface
+E: threads: thread "W#01-lo" failed to start: flags 0423
+exit: 1

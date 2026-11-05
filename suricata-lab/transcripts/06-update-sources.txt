@@ -1,0 +1,21 @@
+$ suricata-update list-sources (enabled ones)
+5/11/2026 -- 09:00:31 - <Warning> -- Source index does not exist, will use bundled one.
+5/11/2026 -- 09:00:31 - <Warning> -- Please run suricata-update update-sources.
+5/11/2026 -- 09:00:31 - <Info> -- Using data-directory /var/lib/suricata.
+5/11/2026 -- 09:00:31 - <Info> -- Using Suricata configuration /etc/suricata/suricata.yaml
+5/11/2026 -- 09:00:31 - <Info> -- Using /etc/suricata/rules for Suricata provided rules.
+5/11/2026 -- 09:00:31 - <Info> -- Found Suricata version 7.0.3 at /usr/bin/suricata.
+Name: et/open
+  Vendor: Proofpoint
+  Summary: Emerging Threats Open Ruleset
+  License: MIT
+Name: et/pro
+  Vendor: Proofpoint
+  Summary: Emerging Threats Pro Ruleset
+  License: Commercial
+  Replaces: et/open
+  Parameters: secret-code
+  Subscription: https://www.proofpoint.com/us/threat-insight/et-pro-ruleset
+Name: etnetera/aggressive
+  Vendor: Etnetera a.s.
+  Summary: Etnetera aggressive IP blacklist

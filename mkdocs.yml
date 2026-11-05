@@ -1,0 +1,25 @@
+site_name: Suricata for Mere Mortals
+site_description: Plain-language Suricata — the network intrusion detection engine, from a first offline packet capture and a local rule you write and prove, to rules and updates, reading real alerts, and an honest account of live capture and blocking.
+site_url: https://paulsullivan33-dev.github.io/suricata-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Suricata Is: what-suricata-is.md
+  - Installing Suricata: installing-suricata.md
+  - The Configuration File: the-configuration-file.md
+  - Learning Offline: learning-offline.md
+  - Rules and Rule Sources: rules-and-updates.md
+  - Reading the Output: reading-the-output.md
+  - Writing a Local Rule: writing-a-local-rule.md
+  - Going Live: going-live.md
+  - IPS Mode: ips-mode.md
+  - On a Home Network: on-a-home-network.md
+  - The Neighbours: the-neighbours.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md

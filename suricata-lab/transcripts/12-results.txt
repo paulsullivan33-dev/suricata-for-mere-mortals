@@ -1,0 +1,28 @@
+$ cat out-trigger/fast.log
+11/14/2023-22:13:25.000000  [**] [1:9000001:1] MM LAB -- pangolin page requested [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 127.0.0.1:41002 -> 127.0.0.1:18085
+
+$ cat out-control/fast.log (empty means no alerts)
+(end of file)
+
+$ jq alert events, out-trigger/eve.json
+{"timestamp":"2023-11-14T22:13:25.000000+0000","flow_id":1407378140539995,"pcap_cnt":14,"event_type":"alert","src_ip":"127.0.0.1","src_port":41002,"dest_ip":"127.0.0.1","dest_port":18085,"proto":"TCP","pkt_src":"wire/pcap","tx_id":0,"alert":{"action":"allowed","gid":1,"signature_id":9000001,"rev":1,"signature":"MM LAB -- pangolin page requested","category":"Potential Corporate Privacy Violation","severity":1},"http":{"hostname":"127.0.0.1","http_port":18085,"url":"/pangolin-survey.html","http_user_agent":"LabBrowser/1.0","http_content_type":"text/html","http_method":"GET","protocol":"HTTP/1.1","status":200,"length":187},"app_proto":"http","direction":"to_server","flow":{"pkts_toserver":4,"pkts_toclient":2,"bytes_toserver":318,"bytes_toclient":360,"start":"2023-11-14T22:13:25.000000+0000","src_ip":"127.0.0.1","dest_ip":"127.0.0.1","src_port":41002,"dest_port":18085}}
+
+$ jq alert count, out-control/eve.json
+0
+
+$ event types counted, out-trigger/eve.json
+{
+  "alert": 1,
+  "fileinfo": 3,
+  "flow": 3,
+  "http": 3,
+  "stats": 1
+}
+
+$ event types counted, out-control/eve.json
+{
+  "fileinfo": 2,
+  "flow": 2,
+  "http": 2,
+  "stats": 1
+}

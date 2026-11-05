@@ -1,0 +1,9 @@
+$ suricata -r trigger.pcap -c /etc/suricata/suricata.yaml -S local.rules -l out-trigger
+i: suricata: This is Suricata version 7.0.3 RELEASE running in USER mode
+i: threads: Threads created -> RX: 1 W: 4 FM: 1 FR: 1   Engine started.
+i: suricata: Signal Received.  Stopping engine.
+i: pcap: read 1 file, 24 packets, 2316 bytes
+
+real	0m0.416s
+user	0m0.090s
+sys	0m0.075s

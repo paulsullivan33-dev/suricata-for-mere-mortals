@@ -1,0 +1,19 @@
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in USER mode
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: cpu: CPUs/cores online: 4
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: suricata: Setting engine mode to IDS mode by default
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: exception-policy: master exception-policy set to: auto
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: coredump-config: Could not set core dump size to unlimited; it's set to the hard limit.
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: logopenfile: fast output device (regular) initialized: fast.log
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: logopenfile: stats output device (regular) initialized: stats.log
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: detect: 1 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[99628 - RX#01] 2026-11-05 09:03:25 Info: pcap: Starting file run for trigger.pcap
+[99628 - RX#01] 2026-11-05 09:03:25 Info: pcap: pcap file trigger.pcap end of file reached (pcap err code 0)
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Notice: threads: Threads created -> RX: 1 W: 4 FM: 1 FR: 1   Engine started.
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Notice: suricata: Signal Received.  Stopping engine.
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: suricata: time elapsed 0.047s
+[99628 - RX#01] 2026-11-05 09:03:25 Notice: pcap: read 1 file, 24 packets, 2316 bytes
+[99627 - Suricata-Main] 2026-11-05 09:03:25 Info: counters: Alerts: 1

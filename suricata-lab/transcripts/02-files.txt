@@ -1,0 +1,17 @@
+$ ls /etc/suricata/
+total 96
+drwxr-xr-x 1 root root   142 Nov  5 09:00 .
+drwxr-xr-x 1 root root  2744 Nov  5 09:00 ..
+-rw-r--r-- 1 root root  3327 Feb  8  2024 classification.config
+-rw-r--r-- 1 root root  1375 Feb  8  2024 reference.config
+drwxr-xr-x 1 root root   756 Nov  5 09:00 rules
+-rw-r--r-- 1 root root 85175 Apr  1  2024 suricata.yaml
+-rw-r--r-- 1 root root  1643 Feb  8  2024 threshold.config
+
+$ wc -l /etc/suricata/suricata.yaml
+2173 /etc/suricata/suricata.yaml
+
+$ ls /var/lib/suricata/rules/ (before any update)
+total 0
+drwxr-xr-x 1 root root  0 Oct 11  2023 .
+drwxr-xr-x 1 root root 10 Nov  5 09:00 ..

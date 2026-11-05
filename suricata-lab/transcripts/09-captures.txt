@@ -1,0 +1,12 @@
+$ tshark -r trigger.pcap -Y http.request -T fields -e http.request.method -e http.request.uri
+GET	/
+GET	/pangolin-survey.html
+GET	/field-notes.html
+
+$ tshark -r control.pcap -Y http.request -T fields -e http.request.method -e http.request.uri
+GET	/
+GET	/field-notes.html
+
+$ ls -la *.pcap
+-rw-rw---- 1 root root 1810 Nov  5 09:03 control.pcap
+-rw-rw---- 1 root root 2724 Nov  5 09:03 trigger.pcap

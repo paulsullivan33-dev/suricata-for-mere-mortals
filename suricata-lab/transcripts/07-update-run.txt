@@ -1,0 +1,42 @@
+$ suricata-update
+5/11/2026 -- 09:00:35 - <Info> -- Using data-directory /var/lib/suricata.
+5/11/2026 -- 09:00:35 - <Info> -- Using Suricata configuration /etc/suricata/suricata.yaml
+5/11/2026 -- 09:00:35 - <Info> -- Using /etc/suricata/rules for Suricata provided rules.
+5/11/2026 -- 09:00:35 - <Info> -- Found Suricata version 7.0.3 at /usr/bin/suricata.
+5/11/2026 -- 09:00:35 - <Info> -- Loading /etc/suricata/suricata.yaml
+5/11/2026 -- 09:00:35 - <Info> -- Disabling rules for protocol pgsql
+5/11/2026 -- 09:00:35 - <Info> -- Disabling rules for protocol modbus
+5/11/2026 -- 09:00:35 - <Info> -- Disabling rules for protocol dnp3
+5/11/2026 -- 09:00:35 - <Info> -- Disabling rules for protocol enip
+5/11/2026 -- 09:00:35 - <Info> -- No sources configured, will use Emerging Threats Open
+5/11/2026 -- 09:00:35 - <Info> -- Fetching https://rules.emergingthreats.net/open/suricata-7.0.3/emerging.rules.tar.gz.
+5/11/2026 -- 09:00:52 - <Info> -- Done.
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/app-layer-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/decoder-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/dhcp-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/dnp3-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/dns-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/files.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/http-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/ipsec-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/kerberos-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/modbus-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/nfs-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/ntp-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/smb-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/smtp-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/stream-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Loading distribution rule file /etc/suricata/rules/tls-events.rules
+5/11/2026 -- 09:00:53 - <Info> -- Ignoring file rules/emerging-deleted.rules
+5/11/2026 -- 09:00:56 - <Info> -- Loaded 69281 rules.
+5/11/2026 -- 09:00:56 - <Info> -- Disabled 14 rules.
+5/11/2026 -- 09:00:56 - <Info> -- Enabled 0 rules.
+5/11/2026 -- 09:00:56 - <Info> -- Modified 0 rules.
+5/11/2026 -- 09:00:56 - <Info> -- Dropped 0 rules.
+5/11/2026 -- 09:00:56 - <Info> -- Enabled 136 rules for flowbit dependencies.
+5/11/2026 -- 09:00:56 - <Info> -- Backing up current rules.
+5/11/2026 -- 09:00:56 - <Info> -- Writing rules to /var/lib/suricata/rules/suricata.rules: total: 69281; enabled: 53316; added: 69281; removed 0; modified: 0
+5/11/2026 -- 09:00:56 - <Info> -- Writing /var/lib/suricata/rules/classification.config
+5/11/2026 -- 09:00:57 - <Info> -- Testing with suricata -T.
+5/11/2026 -- 09:01:31 - <Info> -- Done.
+exit: 0

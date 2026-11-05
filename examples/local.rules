@@ -1,0 +1,1 @@
+alert http any any -> any any (msg:"MM LAB -- pangolin page requested"; flow:established,to_server; content:"pangolin"; http_uri; classtype:policy-violation; sid:9000001; rev:1;)

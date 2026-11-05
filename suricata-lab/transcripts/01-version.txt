@@ -1,0 +1,18 @@
+$ suricata -V
+This is Suricata version 7.0.3 RELEASE
+
+$ suricata --build-info (first lines)
+This is Suricata version 7.0.3 RELEASE
+Features: NFQ PCAP_SET_BUFF AF_PACKET HAVE_PACKET_FANOUT LIBCAP_NG LIBNET1.1 HAVE_HTP_URI_NORMALIZE_HOOK PCRE_JIT HAVE_NSS HTTP2_DECOMPRESSION HAVE_LUA HAVE_LUAJIT HAVE_LIBJANSSON TLS TLS_C11 MAGIC RUST 
+SIMD support: SSE_4_2 SSE_4_1 SSE_3 
+Atomic intrinsics: 1 2 4 8 16 byte(s)
+64-bits, Little-endian architecture
+GCC version 13.2.0, C version 201112
+compiled with _FORTIFY_SOURCE=2
+L1 cache line size (CLS)=64
+thread local storage method: _Thread_local
+compiled with LibHTP v0.5.46, linked against LibHTP v0.5.46
+
+Suricata Configuration:
+  AF_PACKET support:                       yes
+  AF_XDP support:                          yes

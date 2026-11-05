@@ -1,0 +1,4 @@
+$ suricata -T -c /etc/suricata/suricata.yaml
+i: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+W: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+exit: 1

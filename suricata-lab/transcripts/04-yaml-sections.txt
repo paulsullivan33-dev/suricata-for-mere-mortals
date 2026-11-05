@@ -1,0 +1,50 @@
+9:suricata-version: "7.0"
+15:vars:
+61:default-log-dir: /var/log/suricata/
+64:stats:
+78:plugins:
+82:outputs:
+558:logging:
+614:af-packet:
+695:af-xdp:
+744:dpdk:
+806:pcap:
+838:pcap-file:
+866:app-layer:
+1169:datasets:
+1198:#run-as:
+1202:security:
+1225:#sensor-name: suricata
+1230:#pid-file: /var/run/suricata.pid
+1235:#daemon-directory: "/"
+1240:#umask: 022
+1251:coredump:
+1259:host-mode: auto
+1264:#max-pending-packets: 1024
+1269:#runmode: autofp
+1280:#autofp-scheduler: hash
+1285:#default-packet-size: 1514
+1293:unix-command:
+1298:#magic-file: /usr/share/file/magic
+1299:#magic-file: 
+1303:#geoip-database: /usr/local/share/GeoLite2/GeoLite2-Country.mmdb
+1305:legacy:
+1322:#packet-alert-max: 15
+1334:exception-policy: auto
+1337:#reputation-categories-file: /etc/suricata/iprep/categories.txt
+1338:#default-reputation-path: /etc/suricata/iprep
+1339:#reputation-files:
+1347:engine-analysis:
+1354:pcre:
+1365:host-os-policy:
+1385:defrag:
+1430:flow:
+1443:vlan:
+1449:livedev:
+1470:flow-timeouts:
+1576:stream:
+1599:host:
+1608:#ippair:
+1615:decoder:
+1662:detect:
+1717:mpm-algo: auto
